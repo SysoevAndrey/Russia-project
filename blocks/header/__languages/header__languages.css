@@ -1,0 +1,17 @@
+.header__languages {
+  display: flex;
+  justify-content: space-between;
+  width: 78px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__languages {
+    width: 68px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .header__languages {
+    width: 63px;
+  }
+}
